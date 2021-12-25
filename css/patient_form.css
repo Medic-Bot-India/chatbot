@@ -1,3 +1,7 @@
+body {
+  background-color: #092546;
+}
+
 label {
     padding: 0;
     margin: 0;
@@ -18,7 +22,10 @@ label {
   }
 
   .testbox {
-    display: flex;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
     justify-content: center;
     align-items: center;
     height: inherit;
@@ -27,7 +34,7 @@ label {
 
   form {
     width: 100%;
-    padding: 20px;
+    padding: 30px;
     border-radius: 6px;
     background: #fff;
     box-shadow: 0 0 8px #cc7a00;
@@ -61,7 +68,7 @@ label {
   }
 
   input {
-    width: calc(100% - 10px);
+    width: calc(100% - 20px);
     padding: 5px;
   }
 
@@ -93,6 +100,7 @@ label {
   .item {
     position: relative;
     margin: 10px 0;
+    
   }
 
   .item span {
