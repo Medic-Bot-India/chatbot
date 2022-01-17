@@ -102,7 +102,7 @@
 					else{
 						$ipdat = @json_decode(file_get_contents("http://www.geoplugin.net/json.gp?ip=" . $PublicIP));
 						//ip exists.. but recent data for user might need to get updated
-						$query1="SELECT * from last_acc_loc where username='".$username."'AND ip='".$PublicIP."' limit 1";
+						$query1="SELECT * from last_acc_loc where username='".$username."' limit 1";
 						$res1=mysqli_query($link, $query1);
 						if(mysqli_num_rows($res1)==0){
 							$addquery="UPDATE last_acc_loc SET city = '".$ipdat->geoplugin_city."'
