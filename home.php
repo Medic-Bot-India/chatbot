@@ -94,10 +94,9 @@
 						$insert_query="INSERT INTO ips(username, ip) VALUES('$username', '$PublicIP')";
 						$insert_result=mysqli_query($link, $insert_query);
 						//t2
-						
 						$addquery="INSERT INTO last_acc_loc(username, ip, city, state, country, latlon ) 
 									VALUES('$username', '$PublicIP', '$ipdat->geoplugin_city', '$ipdat->geoplugin_region', '$ipdat->geoplugin_countryName', 
-											concat('$ipdat->geoplugin_latitude', 'Q' ,'$ipdat->geoplugin_longitude') )";
+									CONCAT_WS(',','$ipdat->geoplugin_latitude','$ipdat->geoplugin_longitude') )";
 						$addresult=mysqli_query($link, $addquery);
 					}
 					else{
