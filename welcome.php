@@ -39,31 +39,31 @@
         </div>
       </div>
       <div id="block-2">
-      <div class="container">
+      <div class="container about">
           <div class="row">
             <div class="col-lg-6  main-page-content">
             
               <div class="d-flex flex-column bd-highlight mb-3">
-                <div class="p-2 bd-highlight"><h1>Medicbot</h1></div>
+                <div class="p-2 bd-highlight main-page-img"><img src="img/patient.png" alt="Medicbot for Patients"></div>
                 <div class="p-2 bd-highlight"><h3>For Patients</h3></div>
                 
               </div>
              
             </div>
             <div class="col-lg-6 main-page-content">
-              <p>Our AI model is trained to identify common diseases<br> and provide medication and advice</p>
+              <p>Our AI model is trained to identify common<br> diseases and provide medication and advice</p>
             </div>
           </div>
       </div>
 
-      <div class="container">
+      <div class="container about">
           <div class="row">
          
 
             <div class="col-lg-6  main-page-content order-lg-1">
             
               <div class="d-flex flex-column bd-highlight mb-3">
-                <div class="p-2 bd-highlight"><h1>Medicbot</h1></div>
+                <div class="p-2 bd-highlight main-page-img"><img src="img/healthcare.png" alt="medicbot for healthcare professionals"></div>
                 <div class="p-2 bd-highlight"><h3>For Healthcare Experts</h3></div> 
               </div>
              
@@ -75,7 +75,6 @@
           </div>
       </div>
 </div>
-   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
    <?php include 'partials/footer.php'; ?>
