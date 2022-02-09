@@ -5,7 +5,7 @@
 	    <?php 
     session_start(); 
 	if(!isset($_SESSION['username'])){
-        echo "<script>  alert('Please Login to access the chatbot'); window.location.href='.\home.php';</script>";
+        echo "<script>  alert('Please Login to access the chatbot'); window.location.href='.\index.php';</script>";
     }
 ?>
     <?php include 'partials/head.php'; ?>
