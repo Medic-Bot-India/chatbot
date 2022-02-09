@@ -52,7 +52,7 @@
                   {
                     initPayload: '/greet',
                     customData: { language: "en" },
-                    socketUrl: "http://34.131.236.128",
+                    socketUrl: "http://34.126.219.49",
                     // add other props here
                   },
                   null
