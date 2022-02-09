@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<?php 
+    session_start(); 
+	if(!isset($_SESSION['username'])){
+        echo "<script>  alert('Please Login to access the chatbot'); </script>";
+        header('Location: home.php');
+    }
+?>
 <html>
     <head> 
     <?php include 'partials/head.php'; ?>
