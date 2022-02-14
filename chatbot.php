@@ -16,7 +16,7 @@
 
     <body>
         
-        <?php include 'partials/head.php'; ?>
+        <?php include 'partials/header2.php'; ?>
 
         <div id="chatbot-page">
       <div class="container">
