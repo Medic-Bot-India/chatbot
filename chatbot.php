@@ -9,6 +9,7 @@
     }
 ?>
     <link rel="stylesheet" href="css/header.css">
+	     <?php include 'partials/head.php'; ?>
    </head>
 
 
