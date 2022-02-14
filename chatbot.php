@@ -8,14 +8,13 @@
         echo "<script>  alert('Please Login to access the chatbot'); window.location.href='home.php';</script>";
     }
 ?>
-    <?php include 'partials/head.php'; ?>
     <link rel="stylesheet" href="css/header.css">
    </head>
 
 
     <body>
         
-        <?php include 'partials/header.php'; ?>
+        <?php include 'partials/head.php'; ?>
 
         <div id="chatbot-page">
       <div class="container">
