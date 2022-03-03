@@ -60,7 +60,7 @@
                   {
                     initPayload: '/greet',
                     customData: { language: "en" },
-                    socketUrl: "https://rasa-server-justprateek.cloud.okteto.net/",
+                    socketUrl: "https://rasa-server-sriharsha18.cloud.okteto.net/",
                     // add other props here
                   },
                   null
