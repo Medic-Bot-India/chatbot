@@ -1,15 +1,16 @@
-<!DOCTYPE html>
-
-<html>
-    <head> 
-	    <?php 
+<?php 
     session_start(); 
 	if(!isset($_SESSION['username'])){
         echo "<script>  alert('Please Login to access the chatbot'); window.location.href='home.php';</script>";
     }
 ?>
+<!DOCTYPE html>
+<html>
+    <head> 
+        <?php include 'partials/head.php'; ?>
+        <link rel="stylesheet" href="css/index.css">
+	   
     <link rel="stylesheet" href="css/header.css">
-	    <?php include 'partials/head.php'; ?>
 	    
    </head>
 
@@ -60,7 +61,7 @@
                   {
                     initPayload: '/greet',
                     customData: { language: "en" },
-                    socketUrl: "http://134.209.152.203/",
+                    socketUrl: "https://rasa-server-justprateek.cloud.okteto.net/",
                     // add other props here
                   },
                   null
