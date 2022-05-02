@@ -1,4 +1,5 @@
 <?php 
+ echo "<script> window.location.href='echatbot.php';</script>";
     session_start(); 
 	if(!isset($_SESSION['username'])){
         echo "<script>  alert('Please Login to access the chatbot'); window.location.href='home.php';</script>";
