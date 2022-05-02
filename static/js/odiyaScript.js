@@ -85,7 +85,7 @@ function setBotResponse(val) {
 	setTimeout(function () {
 		if (val.length < 1) {
 			//if there is no response from Rasa
-			msg = 'I couldn\'t get that. Let\' try something else!';
+			msg = 'ମୁଁ ସଂଯୋଗ କରିପାରିଲି ନାହିଁ ଦୟାକରି ଆପଣଙ୍କର ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ |';
 
 			var BotResponse = '<img class="botAvatar" src="./static/img/botAvatar.png"><p class="botMsg">' + msg + '</p><div class="clearfix"></div>';
 			$(BotResponse).appendTo('.chats').hide().fadeIn(1000);
