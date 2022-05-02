@@ -63,9 +63,7 @@
             <img class="imgProfile" src="static/img/botAvatar.png"/>
          </div>
           </div>
-          
       </div>
-      ..
       </div>
       
       
