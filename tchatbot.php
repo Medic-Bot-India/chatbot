@@ -28,7 +28,7 @@
           <div class="row">
             <div class="col-lg-12  chatbot-page-content">
             
-              <div class="d-flex flex-column bd-highlight mb-3" style="width: 50vw;">
+              <div class="d-flex flex-column bd-highlight mb-3" style="">
                 <div class="p-2 bd-highlight"><h1>A Healthcare Chatbot</h1></div>
                 <div class="p-2 bd-highlight"><h3>మేము ఆరోగ్య సంరక్షణను సులభంగా అందుబాటులోకి తీసుకురావాలని లక్ష్యంగా పెట్టుకున్నాము మా AI ఆధారిత డయాగ్నస్టిక్ ఇంజిన్, ఇది రోగనిర్ధారణ కోసం సహజ భాషా అవగాహనను ఉపయోగిస్తుంది</h3></div>
                 
@@ -61,7 +61,7 @@
             </div>
          </div>
          <!--bot widget -->
-         <div class="profile_div" id="profile_div" style="width: 10vw;">
+         <div class="profile_div" id="profile_div" style="">
             <img class="imgProfile" src="static/img/botAvatar.png"/>
          </div>
           </div>
