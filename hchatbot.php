@@ -28,7 +28,7 @@
           <div class="row">
             <div class="col-lg-12  chatbot-page-content">
             
-              <div class="d-flex flex-column bd-highlight mb-3">
+              <div class="d-flex flex-column bd-highlight mb-3" style="width: 50vw;">
                 <div class="p-2 bd-highlight"><h1>A Healthcare Chatbot</h1></div>
                 <div class="p-2 bd-highlight"><h3>हमारा उद्देश्य स्वास्थ्य सेवा को आसानी से सुलभ बनाना है हमारे एआई संचालित डायग्नोस्टिक इंजन, जो निदान के लिए प्राकृतिक भाषा समझ का उपयोग करता है</h3></div>
                 
@@ -36,10 +36,10 @@
               </div>
               <h5> You can also choose a different language: </h5>
               <br>
-              <button type="button" class="btn btn-primary"><a href="hchatbot.php" style="color:black;"> Hindi </a></button>
-               <button type="button" class="btn btn-primary" ><a href="echatbot.php" style="color:black;">English</a></button>
-               <button type="button" class="btn btn-primary" ><a href="tchatbot.php" style="color:black;">Telugu</a></button>
-               <button type="button" class="btn btn-primary" ><a href="ochatbot.php" style="color:black;">Odia</a></button>    
+              <button type="button" class="btn btn-info"><a href="hchatbot.php" style="color:black; text-decoration: none; "> Hindi </a></button>
+               <button type="button" class="btn btn-primary" ><a href="echatbot.php" style="color:black;text-decoration: none; ">English</a></button>
+               <button type="button" class="btn btn-primary" ><a href="tchatbot.php" style="color:black;text-decoration: none; ">Telugu</a></button>
+               <button type="button" class="btn btn-primary" ><a href="ochatbot.php" style="color:black;text-decoration: none; ">Odia</a></button>    
                     
           </div>
           <div class="widget" >
@@ -60,7 +60,7 @@
             </div>
          </div>
          <!--bot widget -->
-         <div class="profile_div" id="profile_div">
+         <div class="profile_div" id="profile_div" style="width: 10vw;">
             <img class="imgProfile" src="static/img/botAvatar.png"/>
          </div>
           </div>
@@ -90,4 +90,3 @@
 
 
 </html>
-
